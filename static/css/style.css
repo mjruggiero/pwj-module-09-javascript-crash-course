@@ -1,4 +1,4 @@
-.container-1, .container-2, .container-3, .container-4, .container-5 {
+.container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;
@@ -7,9 +7,9 @@
 
 .flex-box-container-1, .flex-box-container-2, .flex-box-rps,
  .flex-box-pick-color form, .flex-blackjack-row-1, .flex-blackjack-row-2,
- .flex-blackjack-row-3 {
+ .flex-blackjack-row-3, .flex-box-random-user {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -52,7 +52,7 @@ table, th, td {
 .flex-box-container-1 div {
     display: flex;
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
 }
 
@@ -72,3 +72,9 @@ table, th, td {
 .red-box-shadow {
     box-shadow: 0px 10px 50px rgba(243, 38, 24, 1);
 }
+
+.flex-box-random-user img {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+  }
