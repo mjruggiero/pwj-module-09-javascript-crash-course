@@ -15,7 +15,6 @@ for (let i = 0; i < allButtons.length; ++i) {
  */
 function buttonColorChange(buttonSelect) {
     const selectedValue = buttonSelect.value;
-    console.log(selectedValue);
 
     switch (selectedValue) {
         case "random":

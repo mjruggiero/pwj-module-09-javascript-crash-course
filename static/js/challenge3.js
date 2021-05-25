@@ -32,7 +32,7 @@ function rpsGame(yourChoice) {
 
 /**
  * Picks a random item from the given array.
- * @param {array} arr the array of choices 
+ * @param {object[]} arr the array of choices 
  * @returns a random item from the given array
  */
 function randomChoice(arr) {
@@ -59,7 +59,7 @@ function decideWinner(humanChoice, botChoice) {
  * @returns an object containing the final message and color 
  */
 function finalMessage([humanScore, botScore]) {
-    const message, color;
+    let message, color;
     if (humanScore == 1) {
         message = "You Won!";
         color = "green";
